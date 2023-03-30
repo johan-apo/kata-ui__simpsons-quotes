@@ -1,0 +1,15 @@
+version: 0.2
+env:
+  variables:
+    APP_NAME: "kata-ui__simpsons-quotes"
+phases:
+  install:
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build:ci
+artifacts:
+  base-directory: "dist/${APP_NAME}"
+  files:
+    - "**/*"
