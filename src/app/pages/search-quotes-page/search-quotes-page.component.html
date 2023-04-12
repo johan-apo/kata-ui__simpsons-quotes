@@ -1,0 +1,5 @@
+<main class="page">
+  <app-navbar />
+  <app-search-quote-by-character (onSearch)="onGetQuote($event)" />
+  <app-quote-card [quoteData]="quote" />
+</main>

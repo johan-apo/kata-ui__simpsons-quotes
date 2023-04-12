@@ -1,0 +1,16 @@
+header {
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+
+  a {
+    height: 3rem;
+  }
+
+  button {
+    height: 2rem;
+    border: none;
+    background-color: transparent;
+    color: red;
+  }
+}

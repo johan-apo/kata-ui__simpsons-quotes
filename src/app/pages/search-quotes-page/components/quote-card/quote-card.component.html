@@ -1,0 +1,14 @@
+<article class="quote-card-frame">
+  <main class="quote-card-frame__main">
+    <p>{{ quoteData?.quote }}</p>
+    <!-- we use a static image due to cdn.glitch.com being blocked -->
+    <img
+      src="{{ quoteData?.image }}"
+      alt="{{ quoteData?.character }} photo"
+      width="150px"
+    />
+  </main>
+  <strong class="quote-card-frame__character-name">{{
+    quoteData?.character
+  }}</strong>
+</article>
