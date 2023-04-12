@@ -1,0 +1,19 @@
+.search-container {
+  text-align: center;
+  padding: 1rem;
+  &__discover-text {
+    color: #f2f2f2;
+    font-family: "Londrina Solid";
+    font-size: 18px;
+  }
+
+  &__search-input {
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    padding: 0.5rem 1rem;
+    width: 100%;
+    font-family: "Merge One";
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,39 @@
+.quote-card-frame {
+  background-color: #ffde00;
+  border-radius: 10px;
+  padding: 1.25rem;
+  margin: 0 1rem;
+  height: 85vw;
+  width: 85vw;
+  margin: 0 auto;
+
+  &__main {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 1.25rem;
+    height: calc(100% - 2 * 1.25rem);
+    position: relative;
+
+    p {
+      font-family: "Merge One";
+      position: absolute;
+      z-index: 2;
+    }
+
+    img {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+      padding: 0.5rem;
+    }
+  }
+
+  &__character-name {
+    font-family: "Londrina Solid";
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

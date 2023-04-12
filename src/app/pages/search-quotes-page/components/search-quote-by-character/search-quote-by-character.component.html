@@ -1,0 +1,16 @@
+<div class="search-container">
+  <span class="search-container__discover-text"
+    >Discover some The Simpsons quotes</span
+  >
+  <label for="search-quote-by-character" hidden
+    >Search quote by character</label
+  >
+  <input
+    #searchInput
+    (input)="onSearchQueryChange(searchInput.value)"
+    type="text"
+    placeholder="Search quotes by character..."
+    id="search-quote-by-character"
+    class="search-container__search-input"
+  />
+</div>
